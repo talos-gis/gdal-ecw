@@ -1,7 +1,8 @@
 from setuptools import setup
 
 package_name = 'GDAL-ecw'
-v = (3, 2, 0)
+v = (3, 2, 1)
+url = 'https://github.com/talos-gis/gdal-ecw'
 maintainer = 'Idan Miara'
 maintainer_email = 'idan@miara.com'
 
@@ -14,6 +15,7 @@ readme_type = 'text/markdown'
 setup(
     name=package_name,
     version=version,
+    url=url,
     maintainer=maintainer,
     maintainer_email=maintainer_email,
     packages=['osgeo', 'osgeo.gdalplugins'],
