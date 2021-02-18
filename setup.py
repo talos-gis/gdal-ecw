@@ -1,3 +1,6 @@
+# This setup.py file is licensed under MIT license.
+# Other files on this project are licensed under a different license (see LICENSE.txt for details)
+
 from setuptools import setup
 
 package_name = 'gdal-ecw'
