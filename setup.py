@@ -4,7 +4,7 @@
 from setuptools import setup
 
 package_name = 'gdal-ecw'
-v = (3, 2, 3)
+v = (3, 2, 4)
 url = 'https://github.com/talos-gis/gdal-ecw'
 maintainer = 'Idan Miara'
 maintainer_email = 'idan@miara.com'
@@ -12,7 +12,7 @@ maintainer_email = 'idan@miara.com'
 version = '.'.join(str(v) for v in v)
 # a gdal plugin version A.B.C is compatible with gdal version A.B.D for any D.
 install_requires = [f'gdal>={v[0]}.{v[1]},<{v[0]}.{v[1]+1}']
-readme = open('README.md', encoding="utf-8").read()
+readme = open('../README.md', encoding="utf-8").read()
 readme_type = 'text/markdown'
 
 setup(

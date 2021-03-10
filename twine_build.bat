@@ -5,7 +5,7 @@ rmdir /s/q dist
 rmdir /s/q build
 
 :: creating the package
-python setup.py bdist_wheel
+python ..\setup.py bdist_wheel
 
 :: test the dist via twine
 python -m twine check dist/*.whl
