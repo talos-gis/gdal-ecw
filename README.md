@@ -14,9 +14,10 @@ meaning `gdal-ecw==3.6.4` is compatible with `gdal==3.6.x` for any `x`.
 # Troubleshooting:
 * I get an error message: `ERROR 1: Can't load requested DLL: ..\site-packages\osgeo\gdalplugins\gdal_ECW_JP2ECW.dll
 127: The specified procedure could not be found.`
-  * You might not have Microsoft Visual C++ 2019 Redistributable - Download and install vc_redist.x86.exe or vc_redist.x64.exe from https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
-  * `gdal-ecw==3.4.x` is not compatible with `gdal==3.4.3` see https://github.com/talos-gis/gdal-sid/issues/1
-# No error message is given but the format is still unsupported after installation
+  * You might not have Microsoft Visual C++ 2019 Redistributable - 
+Download and install vc_redist.x86.exe or vc_redist.x64.exe from 
+https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
+* No error message is given but the format is still unsupported after installation
   * In some gdal binary distribution versions `gdalplugins` directory is not set up by default:
     * Either set `GDAL_DRIVER_PATH` environment variable to the `gdalplugins` directory or 
     * uncomment the section in `osgeo/__init__.py`
