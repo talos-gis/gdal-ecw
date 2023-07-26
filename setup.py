@@ -4,7 +4,7 @@
 from setuptools import setup
 
 package_name = 'gdal-ecw'
-v = (3, 4, 3)
+v = (3, 6, 4)
 url = 'https://github.com/talos-gis/gdal-ecw'
 maintainer = 'Idan Miara'
 maintainer_email = 'idan@miara.com'
