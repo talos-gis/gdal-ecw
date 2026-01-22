@@ -1,8 +1,8 @@
 # gdal-ecw
 GDAL ecw plugin as a python wheel for easy installation.
 * DLL and LICENSE files were copied from [gisinternals](https://www.gisinternals.com/release.php)
-* SDK version: MSVC 2022    x64     release-1930-x64-gdal-3-10-0-mapserver-8-2-2.zip	2024-12-13 23:22:45	56156 kB	Compiled binaries in a single .zip package
-* SDK version: MSVC 2019	win32	release-1928-gdal-3-6-4-mapserver-8-0-1.zip	2023-06-14 13:46:31	49081 kB	Compiled binaries in a single .zip package
+* SDK version: MSVC 2022	x64	release-1930-x64-gdal-3-11-3-mapserver-8-4-0	2025-07-13 17:51:49
+* SDK version: MSVC 2022	win32	release-1930-gdal-3-11-3-mapserver-8-4-0	2025-07-13 17:13:27
 
 # Version compatibility
 * `gdal-ecw==x.y.patch` is compatible with any `gdal>=x.y,<x.(y+1)`, 
